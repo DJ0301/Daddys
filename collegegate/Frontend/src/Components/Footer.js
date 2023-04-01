@@ -6,15 +6,15 @@ import './Footer.css';
 function Footer() {
   return (
     <div>
-      <div className='Navigation'>
+      <div className='Footer'>
+      <div className='Navigation spaceAround'>
           <Link to="/ClgFinder"> College Finder</Link>
           <Link to="/ClgInterview"> College Interview</Link>
           <Link to="JobInterview"> Job Interview</Link>
           <Link to="/ResumeBldr"> Resume Builder</Link>
-      </div>
-      <div className='Footer'>
+      </div >
         <GitHubIcon />
-        <p>&copy;; 2023 CollegeGate.</p>
+        <p>&copy; 2023 CollegeGate.</p>
       </div>
     </div>
   )

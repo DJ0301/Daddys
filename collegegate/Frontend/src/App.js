@@ -11,12 +11,6 @@ function App() {
     <div className="App">
         <div className='Navigation'>
         <Router>
-            <Switch>
-              <Route path='/ClgFinder' exact Component={ClgFinder}><button>College Finder</button></Route>
-              <Route path='/ClgInterview' exact Component={ClgInterview}><button>College Interviews</button></Route>
-              <Route path='/JobInterview' exact Component={JobInterview}><button>Job Interview</button></Route>
-              <Route path='/ResumeBldr' exact Component={ResumeBldr}><button>Resume Builder</button></Route>
-            </Switch>
         <Footer />
         </Router>
       </div>
