@@ -40,7 +40,7 @@
     vertical-align: middle;
     align-self: center;
     margin-right: 1rem;
-    margin-left: 1rem;
+    margin-left: rem;
     font-size: 5rem;
     padding-bottom: 2rem;
   }
@@ -57,11 +57,20 @@
     width: 100%; /* Make the navi element take up the full width of its container */
   }
   
-  .navi-btn {
+  .navi-btn-right {
     display:inline-flex;
     vertical-align: middle;
-    margin-right: 5%;
-    margin-left: 5%;
+    margin-right: 5rem;
+    font-size: 1rem;
+    padding: 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  .navi-btn-left{
+    display:inline-flex;
+    vertical-align: middle;
+    margin-left: 5rem;
     font-size: 1rem;
     padding: 0;
     background: none;
