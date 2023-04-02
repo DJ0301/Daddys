@@ -18,8 +18,8 @@ function App() {
           <Switch>
             <Route path="/ClgFinder" exact component={ClgFinder} />
             <Route path="/ClgInterview" exact component={ClgInterview} />
-            <Route path="/JobInterview" exact Component={JobInterview} />
-            <Route path="/ResumeBldr" exact Component={ResumeBldr} />
+            <Route path="/JobInterview" exact component={JobInterview} />
+            <Route path="/ResumeBldr" exact component={ResumeBldr} />
           </Switch>
         <Footer />
         </Router>
