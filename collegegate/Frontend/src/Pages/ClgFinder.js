@@ -23,13 +23,12 @@ function ClgFinder() {
         <h3>this is</h3>
         <img src="Image.jpeg"></img>
       </section>
-      <div class="navi">
-        <span class="navi-icon"><ArrowBackIosIcon /></span>
-        <span class="navi-icon"><p>V</p></span>
-        <span class="navi-icon"><ArrowForwardIosIcon /></span>
-      </div>
+      <div className='navi'>
+          <button className='navi-btn'><ArrowBackIosIcon /></button>
+            <span class="navi-icon"><p>V</p></span>
+          <button className='navi-btn'><ArrowForwardIosIcon /></button>
+        </div>
 
-        
       </div>
       <div className='RightContainer'>
         <div className="container">
