@@ -25,9 +25,12 @@ function App() {
       .then((data) => setResponse(data.message));
   };
 
-  return(
-    <div className= "App">
-      <form onSubmit={handleSubmit}>
+
+  const [refreshPage, doIt] = useState([])
+
+  return (
+    <div className="App">
+       <form onSubmit={handleSubmit}>
         <textarea placeholder='hi'
         value={message}
         onChange={(e) => setMessage(e.target.value)}
@@ -35,13 +38,6 @@ function App() {
         <button type="submit">Submit</button>
       </form>
       <div>{response}</div>
-    </div>
-  );
-
-  const [refreshPage, doIt] = useState([])
-
-  return (
-    <div className="App">
         <div className='Navigation'>
         <Router>
           <Switch>
