@@ -10,7 +10,7 @@ function Footer() {
       <div className='Navigation spaceAround'>
           <Link to="/ClgFinder"> College Finder</Link>
           <Link to="/ClgInterview"> College Interview</Link>
-          <Link to="JobInterview"> Job Interview</Link>
+          <Link to="/JobInterview"> Job Interview</Link>
           <Link to="/ResumeBldr"> Resume Builder</Link>
       </div >
         <GitHubIcon />
