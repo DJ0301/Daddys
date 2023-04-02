@@ -32,9 +32,11 @@
   .navi-icon {
     display: inline-block;
     vertical-align: middle;
+    align-self: center;
     margin-right: 10px;
     margin-left: 10px;
-    font-size: 140px;
+    font-size: 120px;
+    padding-bottom: 20px;
   }
   
   .navi .MuiSvgIcon-root {
@@ -49,10 +51,10 @@
     width: 100%; /* Make the navi element take up the full width of its container */
   }
   .navi-btn {
-    display: inline-block;
+    display:inline-flex;
     vertical-align: middle;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
     font-size: 80px;
     padding: 0;
     background: none;
@@ -69,3 +71,46 @@
     padding-top: 20px;
     padding-bottom:20px;
     }
+    .container {
+        position: relative;
+      }
+      
+      .usrInput {
+        padding-right: 40px; /* add padding to make space for the arrow */
+      }
+      
+      .arrow {
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        transform: translateY(-50%);
+        cursor: pointer;
+      }
+      
+      .arrow::before {
+        content: '';
+        display: block;
+        width: 0;
+        height: 0;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        border-left: 10px solid black;
+      }
+      .container {
+        position: relative;
+      }
+      
+      .usrInput::after {
+        content: "\2192"; /* ASCII code for right arrow */
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        transform: translateY(-50%);
+        font-size: 20px;
+        color: grey;
+        pointer-events: none; /* make the arrow icon unclickable */
+      }
+      .sprite{
+        width: 300px;
+        height: 200px;
+      }

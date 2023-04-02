@@ -3,6 +3,7 @@ import './ChatWindow.css';
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import logo from './logo.png';
+import sprite from '../../src/Assets/robot-character-constructor-set-illustration/Em.png';
 function ClgFinder() {
 
   const [usrInput, usrHasInput ] = useState();
@@ -21,12 +22,11 @@ function ClgFinder() {
         <img class="logo" src={logo} />
         </div>
       <section>
-        <h3>this is</h3>
-        <img src="CollegeGate.png"></img>
+        <img class="sprite" src={sprite} />
       </section>
       <div className='navi'>
           <button className='navi-btn'><ArrowBackIosIcon /></button>
-            <span class="navi-icon"><p>V</p></span>
+            <span class="navi-icon"><p>M</p></span>
           <button className='navi-btn'><ArrowForwardIosIcon /></button>
         </div>
 
