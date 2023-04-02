@@ -19,21 +19,31 @@ function ClgFinder() {
       <div className='LeftContainer'>
         {/* Content for the left side of the page */}
         <div className='LeftContent'>
-        <img class="logo" src={logo} />
+          <h2>Welcome to Collegegate</h2>
+          <img src="CollegeGate.png" alt="CollegeGate Logo" />
         </div>
-      <section>
-        <img class="sprite" src={sprite} />
-      </section>
-      <div className='navi'>
+        <section>
+          <h3>This is a section</h3>
+          <img src="CollegeGate.png" alt="CollegeGate Logo" />
+        </section>
+        <div className='navi'>
           <button className='navi-btn'><ArrowBackIosIcon /></button>
-            <span class="navi-icon"><p>M</p></span>
+          <span className="navi-icon"><p>V</p></span>
           <button className='navi-btn'><ArrowForwardIosIcon /></button>
         </div>
-
       </div>
       <div className='RightContainer'>
         <div className="container">
           <input type='text' className='usrInput' placeholder="Let's find you a college" onChange={onChange}></input>
+        </div>
+      </div>
+      <div>
+        <div className='Footer'>
+          <div className="logo-container">
+            <img className="logo" src={logo} alt="CollegeGate Logo" />
+          </div>
+          <p>&copy; 2023 CollegeGate.</p>
+          <a href="https://www.freepik.com/free-vector/robot-character-constructor-set-illustration_40125205.htm">Image by Freepik</a>
         </div>
       </div>
     </div>

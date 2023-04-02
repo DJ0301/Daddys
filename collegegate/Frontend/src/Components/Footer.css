@@ -1,18 +1,41 @@
 .Footer{
-    width: 100%;
-    height: 80px;
-    background-color: #2B2D42;
-    bottom: 0%;
+    height: 8%;
+    background-color: #1f2020;
     position: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    padding-top: 10px;
-    color: #F5F3F4;
-}
-
-a{
+    flex-wrap: wrap;
+  }
+  
+  .Footer p, .Footer a{
+    margin: 0 10px;
+  }
+  
+  .Footer a{
+    color: #242424;
+    text-decoration: none;
+  }
+  
+  .Footer a:hover{
+    text-decoration: underline;
+  }
+  
+  a{
     color: #F5F3F4;
     text-decoration: none;
-}
+  }
+  
+  @media (max-width: 768px) {
+    .Footer {
+      padding-top: 5%;
+      width: 100%;
+      height: auto;
+      flex-direction: column;
+    }
+    
+    .Footer p, .Footer a {
+      margin: 10px 0;
+    }
+  }
+  
