@@ -4,6 +4,7 @@ import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import logo from './logo.png';
 import sprite from '../../src/Assets/robot-character-constructor-set-illustration/Em.png';
+import { Link } from 'react-router-dom';
 function ClgFinder() {
 
   const [usrInput, usrHasInput ] = useState();
@@ -27,9 +28,13 @@ function ClgFinder() {
           <img src="CollegeGate.png" alt="CollegeGate Logo" />
         </section>
         <div className='navi'>
+          <Link to="/JobInterview>">
           <button className='navi-btn'><ArrowBackIosIcon /></button>
+          </Link>
           <span className="navi-icon"><p>V</p></span>
+          <Link to="/CollegeInterview">
           <button className='navi-btn'><ArrowForwardIosIcon /></button>
+          </Link>
         </div>
       </div>
       <div className='RightContainer'>
