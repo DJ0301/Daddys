@@ -123,9 +123,9 @@
   
   .sprite{
     max-width: 30rem;
-    max-height: 20rem;
+    max-height: 16rem;
   }
 .logo{
-    max-width:20rem;
-    max-height:20rem;
+    max-width:14rem;
+    max-height:6rem;
 }  
