@@ -5,15 +5,9 @@ import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import logo from './logo.png';
 import sprite from '../../src/Assets/robot-character-constructor-set-illustration/Em.png';
 import { Link } from 'react-router-dom';
+import SendIcon from '@mui/icons-material/Send';
+
 function ClgFinder() {
-
-  const [usrInput, usrHasInput ] = useState();
-
-  const onChange = (event) =>{
-    const newUsrInput = event.target.value
-    usrHasInput(newUsrInput)
-    console.log(usrInput)
-  }
 
   return (
     <div className='Page'>
@@ -26,7 +20,7 @@ function ClgFinder() {
           <img class= "sprite" src={sprite} />
         </section>
         <div className='navi'>
-          <Link to="/JobInterview">
+          <Link to="/JobInterview>">
           <button className='navi-btn'><ArrowBackIosIcon /></button>
           </Link>
           <span className="navi-icon"><p>V</p></span>
@@ -37,7 +31,8 @@ function ClgFinder() {
       </div>
       <div className='RightContainer'>
         <div className="container">
-          <input type='text' className='usrInput' placeholder="Let's find you a college" onChange={onChange}></input>
+          <input type='text' className='usrInput' placeholder="Let's find you a college"></input>
+          <SendIcon/>
         </div>
       </div>
       <div>
