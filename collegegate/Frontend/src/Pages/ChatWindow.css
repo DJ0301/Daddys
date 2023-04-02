@@ -1,22 +1,40 @@
-body{
-    background-color: #8D99AE;
-}
-.container {
-    position: fixed; /* Set position to fixed to cover entire viewport */
-    top: 10px; /* Add 10px to the top to create top margin */
-    left: 10px; /* Add 10px to the left to create left margin */
-    right: 10px; /* Add 10px to the right to create right margin */
-    bottom: 100px; /* Add 10px to the bottom to create bottom margin */
-    border-radius: 10px;
-    background-color: #ffffff;
-}
-.usrInput{
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    left: 20px;
-    height: 40px;
-    padding-left: 20px;
-    border-radius: 5px;
-    border: 2px solid grey;
-}
+.Page {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+  }
+  
+  .LeftContainer {
+    width: 25%;
+    background-color: lightgray;
+  }
+  
+  .RightContainer {
+    width: 75%;
+  }
+  
+  .container {
+    margin: auto;
+    width: 50%;
+  }
+  
+  .usrInput {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid gray;
+    font-size: 16px;
+  }
+  .navi-icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 80px;
+    
+  }
+  .navi .MuiSvgIcon-root {
+    font-size: 80px;
+  }
