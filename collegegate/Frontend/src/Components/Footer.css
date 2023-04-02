@@ -15,12 +15,4 @@
 a{
     color: #F5F3F4;
     text-decoration: none;
-    background-color: #A4161A;
-}
-.foot-links{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    
 }

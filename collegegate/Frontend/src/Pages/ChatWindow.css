@@ -63,4 +63,9 @@
   .navi-btn:hover {
     color: gray;
   }
-  
+  .logo {
+    width: 210px;
+    height: 120px;
+    padding-top: 20px;
+    padding-bottom:20px;
+    }

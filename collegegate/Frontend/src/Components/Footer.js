@@ -9,6 +9,8 @@ function Footer() {
       <div className='Footer'>
         <GitHubIcon />
         <p>&copy; 2023 CollegeGate.</p>
+        <a href="https://www.freepik.com/free-vector/robot-character-constructor-set-illustration_40125205.htm">Image by Freepik</a>
+
       </div>
     </div>
   )
