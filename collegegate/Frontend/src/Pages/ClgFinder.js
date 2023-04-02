@@ -21,11 +21,11 @@ function ClgFinder() {
         </section>
         <div className='navi'>
           <Link to="/JobInterview>">
-          <button className='navi-btn'><ArrowBackIosIcon /></button>
+          <button className='navi-btn-left'><ArrowBackIosIcon /></button>
           </Link>
           <span className="navi-icon"><p>M</p></span>
           <Link to="/CollegeInterview">
-          <button className='navi-btn'><ArrowForwardIosIcon /></button>
+          <button className='navi-btn-right'><ArrowForwardIosIcon /></button>
           </Link>
         </div>
       </div>
