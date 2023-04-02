@@ -19,16 +19,14 @@ function ClgFinder() {
       <div className='LeftContainer'>
         {/* Content for the left side of the page */}
         <div className='LeftContent'>
-          <h2>Welcome to Collegegate</h2>
-          <img src="CollegeGate.png" alt="CollegeGate Logo" />
+          <img class= "logo" src={logo} />
         </div>
         <section>
-          <h3>This is a section</h3>
-          <img src="CollegeGate.png" alt="CollegeGate Logo" />
+          <img class= "sprite" src={sprite} />
         </section>
         <div className='navi'>
           <button className='navi-btn'><ArrowBackIosIcon /></button>
-          <span className="navi-icon"><p>V</p></span>
+          <span className="navi-icon"><p>M</p></span>
           <button className='navi-btn'><ArrowForwardIosIcon /></button>
         </div>
       </div>
