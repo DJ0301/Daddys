@@ -7,14 +7,10 @@ function Footer() {
   return (
     <div>
       <div className='Footer'>
-      <div className='Navigation spaceAround'>
-          <Link to="/ClgFinder"> College Finder</Link>
-          <Link to="/ClgInterview"> College Interview</Link>
-          <Link to="/JobInterview"> Job Interview</Link>
-          <Link to="/ResumeBldr"> Resume Builder</Link>
-      </div >
         <GitHubIcon />
         <p>&copy; 2023 CollegeGate.</p>
+        <a href="https://www.freepik.com/free-vector/robot-character-constructor-set-illustration_40125205.htm">Image by Freepik</a>
+
       </div>
     </div>
   )
